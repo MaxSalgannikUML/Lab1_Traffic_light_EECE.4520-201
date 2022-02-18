@@ -39,7 +39,7 @@ void loop()
 void lightChange()
 {
   digitalWrite(RED, HIGH);
-  delay(17000); // Wait for 20000 millisecond(s) (including the 3000 with buzzer active)
+  delay(17000); // Wait for 20000 millisecond(s) (including the 3000 millisecond(s) with buzzer active)
   digitalWrite(RED, HIGH);
   digitalWrite(buzzer,HIGH);
   delay(3000);
@@ -47,7 +47,7 @@ void lightChange()
   digitalWrite(buzzer,LOW);
   
   digitalWrite(GREEN, HIGH);
-  delay(17000); // Wait for 20000 millisecond(s) (including the 3000 with buzzer active)
+  delay(17000); // Wait for 20000 millisecond(s) (including the 3000 millisecond(s) with buzzer active)
   digitalWrite(GREEN, HIGH);
   digitalWrite(buzzer,HIGH);
   delay(3000);
