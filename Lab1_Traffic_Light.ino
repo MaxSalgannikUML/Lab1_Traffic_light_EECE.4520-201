@@ -16,9 +16,9 @@ pinMode(buttonpin, INPUT_PULLUP);
 pinMode(RED, OUTPUT);
 pinMode(GREEN, OUTPUT);
 pinMode(YELLOW, OUTPUT);
+digitalWrite(RED, LOW);
 digitalWrite(GREEN, LOW);
 digitalWrite(YELLOW, LOW);
-digitalWrite(RED, LOW);
 pinMode(buzzer,OUTPUT);
 }
   // put your main code here, to run repeatedly:
