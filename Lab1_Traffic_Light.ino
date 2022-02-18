@@ -66,7 +66,7 @@ void lightChange()
   digitalWrite(YELLOW, LOW);
   digitalWrite(buzzer,HIGH);
   }
-  digitalWrite(buzzer,LOW);
   delay(200); // Wait for 200 millisecond(s)
+  digitalWrite(buzzer,LOW);
   lightChange();
 }
