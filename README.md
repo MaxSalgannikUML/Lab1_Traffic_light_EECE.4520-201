@@ -5,7 +5,7 @@ Written by Max Salgannik, Phine Kim, Yolmorakatpanhcharong Lim
 
 
 
-Description: This arduino (C/C++) code allows a MEGA2560 from ELEGOO control LEDS to simulate a traffic light by having the colors change from red, green, and yellow. when the system is powered on with the uploaded code, the red LED is initialy blinking on/off every 1 second until a user presses the button *The button must be pressed for a second*. Once the button is pressed it begins the change light function that keeps looping until the system is turned off.
+Description: This arduino (C/C++) code allows a MEGA2560 from ELEGOO control LEDS to simulate a traffic light by having the colors change from red, green, and yellow. When the system is powered on with the uploaded code, the red LED is initialy blinking on/off every 1 second until a user presses the button *The button must be pressed for a second*. Once the button is pressed it begins the change light function that keeps looping until the system is turned off.
 
 
 
