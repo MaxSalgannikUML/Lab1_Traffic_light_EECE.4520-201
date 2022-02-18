@@ -45,6 +45,7 @@ void lightChange()
   delay(3000);
   digitalWrite(RED, LOW);
   digitalWrite(buzzer,LOW);
+  
   digitalWrite(GREEN, HIGH);
   delay(17000); // Wait for 20000 millisecond(s) (including the 3000 with buzzer active)
   digitalWrite(GREEN, HIGH);
@@ -52,6 +53,7 @@ void lightChange()
   delay(3000);
   digitalWrite(GREEN, LOW);
   digitalWrite(buzzer,LOW);
+  
   digitalWrite(YELLOW, HIGH);
   delay(3000); // Wait for 3000 millisecond(s)
   digitalWrite(YELLOW, LOW);
