@@ -1,9 +1,15 @@
+  //Name: Max Salgannik, Phine Kim, Yolmorakatpanhcharong Lim
+  //Desc: EECE.4520-201 LAB 1 Traffic Light Controller
+  //Date: 2/20/22
+  //Property of UML
+
 #define RED 3
 #define GREEN 5
 #define YELLOW 6
 int buttonpin = 2;
 int buzzer = 7;
 int i;
+
 void setup() {
   // put your setup code here, to run once:
 pinMode(buttonpin, INPUT_PULLUP);
@@ -33,14 +39,14 @@ void loop()
 void lightChange()
 {
   digitalWrite(RED, HIGH);
-  delay(17000); // Wait for 20000 millisecond(s)
+  delay(17000); // Wait for 20000 millisecond(s) (including the 3000 with buzzer active)
   digitalWrite(RED, HIGH);
   digitalWrite(buzzer,HIGH);
   delay(3000);
   digitalWrite(RED, LOW);
   digitalWrite(buzzer,LOW);
   digitalWrite(GREEN, HIGH);
-  delay(17000); // Wait for 20000 millisecond(s)
+  delay(17000); // Wait for 20000 millisecond(s) (including the 3000 with buzzer active)
   digitalWrite(GREEN, HIGH);
   digitalWrite(buzzer,HIGH);
   delay(3000);
@@ -50,8 +56,8 @@ void lightChange()
   delay(3000); // Wait for 3000 millisecond(s)
   digitalWrite(YELLOW, LOW);
   digitalWrite(buzzer,HIGH);
-  for (i=0;i<7;i++){
-  delay(200); // Wait for 200 millisecond(s)
+  for (i=0;i<7;i++){        //loop adds up to 2800 millisecond(s), and final delay adds to the 3000 millisecond(s) needed
+  delay(200); // Wait for 200 millisecond(s) 
   digitalWrite(YELLOW, HIGH);
   digitalWrite(buzzer,HIGH);
   delay(200); // Wait for 200 millisecond(s)
