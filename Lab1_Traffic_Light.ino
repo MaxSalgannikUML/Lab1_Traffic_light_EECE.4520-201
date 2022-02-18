@@ -56,7 +56,7 @@ void lightChange()
   delay(3000); // Wait for 3000 millisecond(s)
   digitalWrite(YELLOW, LOW);
   digitalWrite(buzzer,HIGH);
-  for (i=0;i<7;i++){        //loop adds up to 2800 millisecond(s), and final delay adds to the 3000 millisecond(s) needed
+  for (i=0;i<7;i++){        //loop adds up to 2800 millisecond(s), and final 200 millisecond(s) delay adds to the 3000 millisecond(s) needed
   delay(200); // Wait for 200 millisecond(s) 
   digitalWrite(YELLOW, HIGH);
   digitalWrite(buzzer,HIGH);
