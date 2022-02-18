@@ -1,7 +1,7 @@
   //Name: Max Salgannik, Phine Kim, Yolmorakatpanhcharong Lim
   //Desc: EECE.4520-201 LAB 1 Traffic Light Controller
   //Date: 2/20/22
-  //Property of UML
+  //Property of UML (UMASS LOWELL)
 
 #define RED 3
 #define GREEN 5
